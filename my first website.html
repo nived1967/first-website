@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+        <h1>Contact Form</h1>
+        <p>Please fill all the details</p>
+        <hr>
+        <p> Name : <br>
+        <input type="text" name="name" placeholder="Enter your name">
+        </p>
+        <p>Your email : <br>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        </p>
+        <p>Message : <br>
+        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Your message to us"></textarea>
+        </p>
+        <p>Subject : <br>
+        <select name="Subject" id="Subject" required>
+        <option value="">-----Enter subject------</option>
+        <option value="Job Enquiry">Job Enquiry</option>
+        <option value="Sales">Sales</option>
+        <option value="Customer Service">Customer Service</option>
+        </select>
+        </p>
+        <button class="btn">Send</button>
+    </form>
+    </div>
+</body>
+</html>
